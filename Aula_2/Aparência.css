@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(0, 105, 105, 0.397);
+}
+h1 {
+    color: rgb(226, 240, 40);
+    font-size: 20pt;
+}
+.amarelo{
+    color: yellow;
+}
+a:hover {
+    color: green;
+}
