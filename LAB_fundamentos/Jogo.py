@@ -1,0 +1,5 @@
+Hora_inicio = int(input("Digite a hora inicial:"))
+Minuto_inicio = int(input("Digite o minuto inicial:"))
+Hora_fim = int(input("Digite a hora final:"))
+minuto_fim = int(input("Digite o minuto final:"))
+print(f"O jogo durou {Hora_fim-Hora_inicio:.0f} hora(s) e {minuto_fim-Minuto_inicio:.0f} minutos(s)")
