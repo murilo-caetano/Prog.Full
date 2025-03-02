@@ -17,8 +17,11 @@ body{
     color: darkred;
     position: relative;
     height: 40px;
-    word-spacing: 50px;
+    top: -22px;
+    word-spacing: 80px;
     font-weight: bold;
+    line-height: 40px;
+    font-size: 12px;
 }
 .textos{
     color: indigo;
