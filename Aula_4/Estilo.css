@@ -1,0 +1,122 @@
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+.bordaJava{
+    background: bisque;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    color: darkgreen;
+    border: solid 3px darkblue;
+    line-height: 95px;
+    
+}
+.menu{
+    background: lightskyblue ;
+    color: darkred;
+    position: relative;
+    height: 40px;
+    top: -22px;
+    word-spacing: 80px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+}
+.textos{
+    color: indigo;
+    font-family: sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.bordaT{
+    border: dashed 4px red;
+    position: relative;
+    left:760px;
+    
+    
+}
+.textoT{
+    color: red;
+}
+.lista
+{
+    text-align: left;
+    background-color: yellow;
+    width: 435px;
+    height: 100px;
+    position: relative;
+    left: 690px;
+}
+.textopa{
+    word-spacing: 70px;
+}
+.textohtml{
+    word-spacing: 53px;
+}
+.linkslista{
+    text-align: center;
+    color: darkred;
+}
+.final{
+   
+    font-size: 15pt;
+}
+.cmaismais{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;   
+}
+.java{
+    position: absolute;
+    right: 20px;
+    top:20px;
+    width: 100px;
+    height: 100px; 
+}
+.final{
+    background: bisque;
+    width: auto;
+    height: 110px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    line-height: 105px;
+}
+.css{
+    position: absolute;
+    right: 20px;
+    bottom: -965px;
+    width: 75px;
+    height: 100px;
+} 
+.html{
+    position: absolute;
+    left: 20px;
+    bottom: -965px;
+    width: 100px;
+    height: 100px;
+}
+.livro{
+    position: relative;
+    left: -20px;
+}
+.livro2
+{
+    position: relative;
+    left: 0px;
+}
+.livro3{
+    position: relative;
+    left: 20px;
+}
+.linky{
+    position: relative;
+    left: -50px;
+}
+.linkm{
+    position: relative;
+    left: 50px;
+}
