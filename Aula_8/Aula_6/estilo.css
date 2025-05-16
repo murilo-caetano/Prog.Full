@@ -1,0 +1,21 @@
+.body{
+    background-color: rgb(151, 97, 253);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canva{
+    background-color: #90fcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
