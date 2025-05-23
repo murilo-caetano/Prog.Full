@@ -1,0 +1,151 @@
+/*'criando' a  fonte*/
+@font-face {
+    font-family:'Mercy'; /*nome da fonte  criada*/
+    src: url('fontes/MERCY.otf') format('opentype'); /*pasta onde o arquivo se encontra*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*definindo cor do fundo*/
+.body {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+/*ajustando a posição da grade da batalha*/
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*ajustando a posição dos menus em 1Menu.html*/
+.menu1{
+    height: 375px;
+    display: flex;
+    align-items:end;
+    justify-content: space-around;
+}
+/*ajustando a posição dos menus em 1Créditos.html*/
+.menu2{
+    height: 310px;
+    display: flex;
+    align-items:end;
+    justify-content: space-around;
+}
+/*ajustando a posição dos menus em 1Tutorial.html*/
+.menu3{
+    height: 180px;
+    display: flex;
+    align-items:end;
+    justify-content: space-around;
+}
+/*editando a fonte dos textos no menu*/
+.texto{
+    font-family: 'Mercy';
+    font-size: 30px;
+    font-weight: normal;
+    color: #ff8015 ;
+    
+}
+/*  quando o cursor passar porcima do texto*/
+.texto:hover{
+    color: yellow;
+}
+/* posiciona a imagem da steam em 1Créditos.html*/
+.steam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 325px;
+    left: 100px;
+    color: white;
+}
+/*  quando o cursor passar porcima do texto*/
+.bgcre {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+/* ajusta e muda a cor do campo dentro de  1Tutorial.html*/
+.campoC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}
+/*Muda a fonte do texto para a fonte personalizada*/
+.textoTuto{
+    font-family: 'Mercy';
+    font-size: 30px;
+    font-weight: normal;
+    color: #ff8015 ;
+}
+/*ajusta o texto dentro de 1Tutorial.html*/
+.txtT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 40px;
+}
+/* posiciona o gif dentro de 1Start.html*/
+.Sans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px
+}
+/*deixa o fundo do canvas vermelho*/
+.vida_inimigo{
+    background-color: rgb(255, 0, 0);
+}
+/* ajusta a posição do canvas em 1Start.html*/
+.hp_inimigo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ajusta a posição do canvas em 1Start.html*/
+.hp_jogador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+/*deixa o fundo do canvas vermelho e coloca uma borda branca*/
+.vida_jogador {
+  background-color: rgb(255, 0, 0); 
+  border: 2px solid white;         
+}
+/*troca a fonte,o tamanho e a cor do texto em derrota.html*/
+.derrota{
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 100px;
+}
+/*troca a fonte,o tamanho e a cor do texto em 1vitoria.html*/
+.tentar{
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+}
+/*centraliza o texto dentro de derrota.html*/
+.derrotacentro{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
